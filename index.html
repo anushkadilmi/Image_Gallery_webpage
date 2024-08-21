@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="landing-page" class="landing-page">
+        <h1>Welcome to the Image Gallery</h1>
+        <button id="show-gallery" class="show-gallery-btn">Show Image Gallery</button>
+    </div>
+
+    <div id="gallery-container" class="gallery-container hidden">
+        <div class="gallery-grid">
+            <img src="image1.jpg" alt="Image 1" class="gallery-thumb">
+            <img src="image2.jpg" alt="Image 2" class="gallery-thumb">
+            <img src="image5.jpg" alt="Image 3" class="gallery-thumb">
+            <img src="image4.jpg" alt="Image 4" class="gallery-thumb">
+            <img src="image7.png" alt="Image 5" class="gallery-thumb">
+            <img src="image8.png" alt="Image 6" class="gallery-thumb">
+            <img src="image9.png" alt="Image 7" class="gallery-thumb">
+            <img src="image10.png" alt="Image 8" class="gallery-thumb">
+            <img src="image11.png" alt="Image 9" class="gallery-thumb">
+            <img src="image12.png" alt="Image 10" class="gallery-thumb">
+            <img src="image13.png" alt="Image 11" class="gallery-thumb">
+            <img src="image14.png" alt="Image 12" class="gallery-thumb">
+            <img src="image15.png" alt="Image 13" class="gallery-thumb">
+            <img src="image16.png" alt="Image 14" class="gallery-thumb">
+            <img src="image25.png" alt="Image 15" class="gallery-thumb">
+            <img src="image18.png" alt="Image 16" class="gallery-thumb">
+            <img src="image17.png" alt="Image 17" class="gallery-thumb">
+            <img src="image20.png" alt="Image 18" class="gallery-thumb">
+            <img src="image21.png" alt="Image 19" class="gallery-thumb">
+            <img src="image26.png" alt="Image 20" class="gallery-thumb">
+            <img src="image23.png" alt="Image 21" class="gallery-thumb">
+            <img src="image22.png" alt="Image 24" class="gallery-thumb">
+        </div>
+    </div>
+
+    <div id="full-view-container" class="full-view-container hidden">
+        <img id="full-view-image" src="" alt="Full View Image">
+        <button id="back-to-gallery" class="back-to-gallery-btn">Back to Gallery</button>
+        <button class="prev" onclick="prevImage()">&#10094;</button>
+        <button class="next" onclick="nextImage()">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
